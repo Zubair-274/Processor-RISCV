@@ -1,0 +1,17 @@
+// assignment no 2:
+
+main:
+    addi x5, x0, 0      # Initialize sum to 0 in register x5
+    addi x6, x0, 0      # Initialize loop counter i to 0 in register x6
+
+loop:
+    addi x5, x5, 1      # Increment sum
+    addi x6, x6, 1      # Increment loop counter i
+    blt x6, x11, loop   # Branch to loop if i <= 10
+
+    li a0, x5           # Load sum into argument register a0
+    la a1, msg          # Load address of message into argument register a1
+    jal printf
+
+    li a0, 0            # Return value 0
+    exit
