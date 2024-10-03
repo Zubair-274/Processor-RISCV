@@ -3,8 +3,7 @@
 <!--                                                         -->
 <!-- Copyright (c) 2001-2013 Xilinx Inc, All rights reserved -->
 
-<Project Version="7" Minor="1" Path="C:/Users/Muhammad Imran/Desktop/Vivado_Projects/RISC_V/Modified/register_file/register_file.xpr">
-  <DefaultLaunch Dir="$PRUNDIR"/>
+
   <Configuration>
     <Option Name="Id" Val="6b0e0acd8498474fa058885367f4704b"/>
     <Option Name="Part" Val="xc7a35tcpg236-1"/>
